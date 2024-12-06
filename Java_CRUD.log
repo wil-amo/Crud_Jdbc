@@ -1,0 +1,22 @@
+dez. 06, 2024 12:19:48 PM EmployeeDAO startDb
+INFO: Starting a database connection...
+dez. 06, 2024 12:19:48 PM EmployeeDAO startDb
+INFO: Error connecting to the database...
+dez. 06, 2024 12:19:58 PM EmployeeDAO insertEmployee
+INFO: Calls insertEmployee method
+dez. 06, 2024 12:19:58 PM EmployeeDAO insertEmployee
+INFO: Error executing insertEmployee, SQ syntax error
+dez. 06, 2024 12:27:34 PM EmployeeDAO startDb
+INFO: Starting a database connection...
+dez. 06, 2024 12:27:34 PM EmployeeDAO startDb
+INFO: Error connecting to the database...
+dez. 06, 2024 12:27:46 PM EmployeeDAO startDb
+INFO: Starting a database connection...
+dez. 06, 2024 12:27:47 PM EmployeeDAO startDb
+INFO: Conection successfully...
+dez. 06, 2024 12:27:56 PM EmployeeDAO insertEmployee
+INFO: Calls insertEmployee method
+dez. 06, 2024 12:27:57 PM EmployeeDAO getAllEmployees
+INFO: Calls getAllEmployees method
+dez. 06, 2024 12:27:57 PM EmployeeDAO getAllEmployees
+INFO: Calls getAllEmployees method

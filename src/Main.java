@@ -36,7 +36,7 @@ public class Main {
                     String email = scanner.nextLine();
                     System.out.print("Departament: ");
                     String department = scanner.nextLine();
-                    Employee newEmployee = new Employee(0, name, email, department);
+                    Employee newEmployee = new Employee(name, email, department);
                     employeeDAO.insertEmployee(newEmployee);
                     System.out.println("Funcionário adicionado com sucesso.");
                     break;

@@ -93,7 +93,7 @@ public class EmployeeDAO {
                 String email = resultSet.getString("email");
                 String department = resultSet.getString("department");
 
-                employees.add(new Employee(id, name, email, department));
+                employees.add(new Employee( name, email, department));
             }
         } catch (SQLException e) {
             e.printStackTrace();
