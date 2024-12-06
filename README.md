@@ -33,3 +33,27 @@ Este projeto demonstra como criar uma tabela de funcionários em um banco de dad
    - Antes de rodar a aplicação, crie o banco de dados com o seguinte comando no MySQL:
    ```sql
    CREATE DATABASE jdbc_crud;
+
+## 4. **Logs 📊**
+
+Este projeto implementa **logs** para monitoramento das operações realizadas no banco de dados e outras partes críticas do sistema. Utilizando a biblioteca **Java Util Logging**, o sistema registra mensagens informativas e de erro que ajudam no acompanhamento da execução e na depuração.
+
+#### **Operações Registradas nos Logs**
+
+- **Conexão com o Banco de Dados 🔌**
+  - Quando o sistema tenta conectar ao banco de dados, ele registra uma mensagem informando se a conexão foi bem-sucedida ou se ocorreu algum erro.
+
+- **Operações CRUD 💻**
+  - Cada operação CRUD (Create, Read, Update, Delete) tem seu status registrado:
+    - **Create**: Registra quando um novo funcionário é adicionado ao banco.
+    - **Read**: Registra quando a consulta aos funcionários é realizada.
+    - **Update**: Registra as tentativas de atualização de dados de funcionários.
+    - **Delete**: Registra a exclusão de um funcionário.
+
+- **Exceções ❌**
+  - Se ocorrer algum erro durante a execução, como falha ao conectar ao banco ou ao executar uma operação, o sistema captura a exceção e registra no log com os detalhes do erro.
+
+#### **Exemplo de Log**
+
+Aqui está um exemplo de como as mensagens de log podem aparecer durante a execução do código:
+
