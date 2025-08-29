@@ -53,7 +53,5 @@ Este projeto implementa **logs** para monitoramento das operações realizadas n
 - **Exceções ❌**
   - Se ocorrer algum erro durante a execução, como falha ao conectar ao banco ou ao executar uma operação, o sistema captura a exceção e registra no log com os detalhes do erro.
 
-#### **Exemplo de Log**
 
-Aqui está um exemplo de como as mensagens de log podem aparecer durante a execução do código:
 
